@@ -119,7 +119,10 @@ int main()
 
             fclose(f);
         }
-
+    
+    puts("You can look at the file 001.txt. Press ENTER for exit");
+    getchar();
+    
     return 0;
 }
 
