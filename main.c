@@ -34,7 +34,7 @@ int main()
     f = fopen("001.txt", "r");
 
     fgets(str, strlen("You enter:\n"), f);
-    while( fscanf(f, "%d ", mas+count_mas) == 1) // reading numbers into an array
+    while(fscanf(f, "%d ", mas+count_mas) == 1) // reading numbers into an array
     {
         printf("mas[%d]=%d ", count_mas, mas[count_mas]);
         count_mas++;
